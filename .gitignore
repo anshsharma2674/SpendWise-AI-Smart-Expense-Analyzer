@@ -1,0 +1,19 @@
+# Local editor and operating-system artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Test/build output, if added later
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
